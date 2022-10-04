@@ -14,7 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 
-    public void Enviar(View view) {
+    public void Retroceder(View view) {
         Intent intent=new Intent(this, MainActivity.class);
         startActivity(intent);
     }
