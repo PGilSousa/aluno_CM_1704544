@@ -14,11 +14,12 @@
         android:layout_marginTop="119dp"
         android:layout_marginEnd="291dp"
         android:layout_marginBottom="545dp"
+        android:onClick="send4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
 
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/mickey4" />
 
     <ImageButton
@@ -29,6 +30,7 @@
         android:layout_marginTop="119dp"
         android:layout_marginEnd="194dp"
         android:layout_marginBottom="545dp"
+        android:onClick="send5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
@@ -43,6 +45,7 @@
         android:layout_marginTop="119dp"
         android:layout_marginEnd="96dp"
         android:layout_marginBottom="545dp"
+        android:onClick="send6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
@@ -57,6 +60,7 @@
         android:layout_marginTop="119dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="545dp"
+        android:onClick="send7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
