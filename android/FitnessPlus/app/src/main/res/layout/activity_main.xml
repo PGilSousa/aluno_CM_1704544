@@ -21,13 +21,14 @@
         app:srcCompat="@mipmap/icon_img_foreground" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/enterbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="169dp"
+        android:onClick="sendMain"
         android:text="Enter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
