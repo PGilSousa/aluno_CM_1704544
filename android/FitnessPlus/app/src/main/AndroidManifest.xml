@@ -12,6 +12,20 @@
         android:theme="@style/Theme.FitnessPlus"
         tools:targetApi="31">
         <activity
+            android:name=".Account"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".calories"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".months"
             android:exported="false">
             <meta-data
