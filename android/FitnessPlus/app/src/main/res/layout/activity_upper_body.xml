@@ -18,9 +18,12 @@
         android:id="@+id/imageView8"
         android:layout_width="240dp"
         android:layout_height="490dp"
-        app:srcCompat="@drawable/upperbody"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="81dp" />
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/upperbody" />
 
     <Button
         android:id="@+id/button9"
