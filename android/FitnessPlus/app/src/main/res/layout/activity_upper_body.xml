@@ -29,8 +29,11 @@
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
         android:onClick="sendMain7"
         android:text="Lower Body"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
